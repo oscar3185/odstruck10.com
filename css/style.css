@@ -1,0 +1,225 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #f4a261;
+  background-color: black;
+}
+
+header {
+  background-color: gray;
+  padding: 20px 
+}
+
+.navbar {
+  list-style: none;
+  margin: 0 ;
+  padding: 0;
+  text-align:center;
+}
+
+.navbar li {
+  display:inline;
+  margin: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.navbar .logo {
+  height: 100px;
+  display: block;
+  margin: 10px auto;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.nom {
+  background-image: url("https://img.freepik.com/photos-gratuite/vue-du-delicieux-plat-shawarma_23-2151805426.jpg");
+  background-size: cover;
+  height: 400px;
+  text-align: center;
+  color: orange;
+}
+
+.nom h1 {
+  margin: 0;
+  padding: 150px 0 10px 0;
+  font-size: 50px;
+  text-align: left;
+}
+
+.nom p {
+  font-size: 20px;
+  margin: 0;
+  color: white;
+  text-align: left;
+}
+
+h1, h2 {
+  color: orange;
+  text-align: center;
+}
+
+h1 {
+  margin: 20px 0;
+  font-size: 40px;
+}
+
+main {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: black
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th, td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 10px;
+}
+
+th {
+  background-color: #f4a261;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.menu-section {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.menu-section img {
+  width: 220px;
+  height: 200px;
+  margin: 10px auto;
+}
+
+.menu-section h2 {
+  margin-top: 0;
+}
+
+#langage-buttons {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.boutton {
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #444;
+  color: white;
+  border: none;
+}
+
+#carte-container {
+  margin: 20px 0;
+  text-align: center;
+}
+
+ul, li {
+  color:#f4a261;
+}
+
+#contact-section {
+  margin: 20px 0;
+}
+
+#contact-info,
+#contact-form {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+}
+
+#contact-info h2,
+#contact-form h2 {
+  color: wheat;
+  margin-bottom: 10px;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+#footer {
+  background-color: gray;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+#footer-logos {
+  margin-bottom: 10px;
+}
+
+.footer-logo {
+  width: 100px;
+  margin: 0 auto;
+}
+
+#footer-info {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#footer-info a {
+  color: white;
+  text-decoration: none;
+}
+
+#footer-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+#footer-menu li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+#footer-copyright {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.ecologie-block {
+  margin: 20px 0;
+  background-color: white;
+  padding: 20px;
+  text-align: left;
+}
+
+.ecologie-image img {
+  width: 140px;
+  display: block;
+  margin: 10px auto;
+}
+
+.ecologie-text h2 {
+  font-size: 20px;
+  color: #008c45;
+}
